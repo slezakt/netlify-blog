@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        netlify-blog
+        Netlify-blog
       </h1>
       <div class="links">
         <a
