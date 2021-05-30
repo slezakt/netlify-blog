@@ -24,14 +24,22 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: "Pages"
-    name: "page-1"
-    file: "content/pages/page-1.md"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - {
-          label: "Description",
-          name: "description",
-          widget: "text",
-          required: true,
-        }
-      - { label: "Content", name: "body", widget: "markdown", required: false }
+    name: "pages"
+    files:
+      - label: "Page 1"
+        name: "page-1"
+        file: "content/pages/page-1.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - {
+              label: "Description",
+              name: "description",
+              widget: "text",
+              required: true,
+            }
+          - {
+              label: "Content",
+              name: "body",
+              widget: "markdown",
+              required: false,
+            }
